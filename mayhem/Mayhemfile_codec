@@ -1,0 +1,10 @@
+project: savantenvs/tbox
+target: codec
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/codec/testsuite
+
+cmds:
+  - cmd: /mayhem/build/fuzzers/fuzz_codec
+    libfuzzer: true
+    timeout: 5

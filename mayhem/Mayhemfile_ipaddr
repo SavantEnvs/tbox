@@ -1,0 +1,10 @@
+project: savantenvs/tbox
+target: ipaddr
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/ipaddr/testsuite
+
+cmds:
+  - cmd: /mayhem/build/fuzzers/fuzz_ipaddr
+    libfuzzer: true
+    timeout: 5

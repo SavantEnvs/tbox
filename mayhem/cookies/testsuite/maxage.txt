@@ -1,0 +1,2 @@
+https://a.b.example.org/x/y
+SID=4; max-age=946080000; expires=Wednesday, 09-Nov-99 23:12:40 GMT; domain=.example.org; path=/x; version=1

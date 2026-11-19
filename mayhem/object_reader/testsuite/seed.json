@@ -1,0 +1,27 @@
+{
+  "name": "tbox"
+, "ok": true
+, "none": null
+, "nested": 
+  {
+    "empty": 
+    {}
+  , "list": 
+    [
+      "a"
+    , "b"
+    , {
+        "k": "v"
+      }
+    ]
+  }
+, "ratio": 0.750000
+, "neg": -42
+, "version": 
+  [
+    1
+  , 8
+  , 2
+  ]
+, "data": "xé\n"
+}

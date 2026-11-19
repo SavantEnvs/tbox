@@ -1,0 +1,424 @@
+[demo]: =================================================
+[demo]: irl: data://VGhlIFRyZWFzdXJlIEJveCBMaWJyYXJ5Cgo=
+[demo]: orl: VGhlIFRyZWFzdXJlIEJveCBMaWJyYXJ5Cgo=
+[demo]: poto: data
+[demo]: port: 0
+[demo]: host: null
+[demo]: path: null
+[demo]: args: null
+[demo]: =================================================
+[demo]: irl: file:///home/ruki/file.txt
+[demo]: orl: /home/ruki/file.txt
+[demo]: poto: file
+[demo]: port: 0
+[demo]: host: null
+[demo]: path: /home/ruki/file.txt
+[demo]: args: null
+[demo]: =================================================
+[demo]: irl: sock://localhost:8080
+[demo]: orl: sock://localhost:8080/
+[demo]: poto: sock
+[demo]: port: 8080
+[demo]: host: localhost
+[demo]: path: /
+[demo]: args: null
+[demo]: =================================================
+[demo]: irl: sock://localhost:8080/ruki/file.txt
+[demo]: orl: sock://localhost:8080/ruki/file.txt
+[demo]: poto: sock
+[demo]: port: 8080
+[demo]: host: localhost
+[demo]: path: /ruki/file.txt
+[demo]: args: null
+[demo]: =================================================
+[demo]: irl: rtsp://localhost:8080
+[demo]: orl: rtsp://localhost:8080/
+[demo]: poto: rtsp
+[demo]: port: 8080
+[demo]: host: localhost
+[demo]: path: /
+[demo]: args: null
+[demo]: =================================================
+[demo]: irl: rtsp://localhost:8080/ruki/file.txt
+[demo]: orl: rtsp://localhost:8080/ruki/file.txt
+[demo]: poto: rtsp
+[demo]: port: 8080
+[demo]: host: localhost
+[demo]: path: /ruki/file.txt
+[demo]: args: null
+[demo]: =================================================
+[demo]: irl: http://localhost
+[demo]: orl: http://localhost/
+[demo]: poto: http
+[demo]: port: 80
+[demo]: host: localhost
+[demo]: path: /
+[demo]: args: null
+[demo]: =================================================
+[demo]: irl: http://localhost:80
+[demo]: orl: http://localhost/
+[demo]: poto: http
+[demo]: port: 80
+[demo]: host: localhost
+[demo]: path: /
+[demo]: args: null
+[demo]: =================================================
+[demo]: irl: http://localhost:8080
+[demo]: orl: http://localhost:8080/
+[demo]: poto: http
+[demo]: port: 8080
+[demo]: host: localhost
+[demo]: path: /
+[demo]: args: null
+[demo]: =================================================
+[demo]: irl: http://localhost/ruki/file.txt
+[demo]: orl: http://localhost/ruki/file.txt
+[demo]: poto: http
+[demo]: port: 80
+[demo]: host: localhost
+[demo]: path: /ruki/file.txt
+[demo]: args: null
+[demo]: =================================================
+[demo]: irl: http://localhost:8080/ruki/file.txt
+[demo]: orl: http://localhost:8080/ruki/file.txt
+[demo]: poto: http
+[demo]: port: 8080
+[demo]: host: localhost
+[demo]: path: /ruki/file.txt
+[demo]: args: null
+[demo]: =================================================
+[demo]: irl: http://[::1]:8080/ruki/file.txt
+[demo]: orl: http://[::1]:8080/ruki/file.txt
+[demo]: poto: http
+[demo]: port: 8080
+[demo]: host: ::1
+[demo]: path: /ruki/file.txt
+[demo]: args: null
+[demo]: =================================================
+[demo]: irl: http://[fe80::7a31:c1ff:fecf:e8ae%en0]:8080/ruki/file.txt
+[demo]: orl: http://[fe80::7a31:c1ff:fecf:e8ae%en0]:8080/ruki/file.txt
+[demo]: poto: http
+[demo]: port: 8080
+[demo]: host: fe80::7a31:c1ff:fecf:e8ae%en0
+[demo]: path: /ruki/file.txt
+[demo]: args: null
+[demo]: =================================================
+[demo]: irl: http://[fe80::7a31:c1ff:fecf:e8ae%7]:8080/ruki/file.txt
+[demo]: orl: http://[fe80::7a31:c1ff:fecf:e8ae%7]:8080/ruki/file.txt
+[demo]: poto: http
+[demo]: port: 8080
+[demo]: host: fe80::7a31:c1ff:fecf:e8ae%7
+[demo]: path: /ruki/file.txt
+[demo]: args: null
+[demo]: =================================================
+[demo]: irl: socks://localhost:8080
+[demo]: orl: socks://localhost:8080/
+[demo]: poto: sock
+[demo]: port: 8080
+[demo]: host: localhost
+[demo]: path: /
+[demo]: args: null
+[demo]: =================================================
+[demo]: irl: socks://localhost:8080/ruki/file.txt
+[demo]: orl: socks://localhost:8080/ruki/file.txt
+[demo]: poto: sock
+[demo]: port: 8080
+[demo]: host: localhost
+[demo]: path: /ruki/file.txt
+[demo]: args: null
+[demo]: =================================================
+[demo]: irl: https://localhost
+[demo]: orl: https://localhost/
+[demo]: poto: http
+[demo]: port: 443
+[demo]: host: localhost
+[demo]: path: /
+[demo]: args: null
+[demo]: =================================================
+[demo]: irl: https://localhost:80
+[demo]: orl: https://localhost:80/
+[demo]: poto: http
+[demo]: port: 80
+[demo]: host: localhost
+[demo]: path: /
+[demo]: args: null
+[demo]: =================================================
+[demo]: irl: https://localhost:8080
+[demo]: orl: https://localhost:8080/
+[demo]: poto: http
+[demo]: port: 8080
+[demo]: host: localhost
+[demo]: path: /
+[demo]: args: null
+[demo]: =================================================
+[demo]: irl: https://localhost/ruki/file.txt
+[demo]: orl: https://localhost/ruki/file.txt
+[demo]: poto: http
+[demo]: port: 443
+[demo]: host: localhost
+[demo]: path: /ruki/file.txt
+[demo]: args: null
+[demo]: =================================================
+[demo]: irl: https://localhost:443/ruki/file.txt
+[demo]: orl: https://localhost/ruki/file.txt
+[demo]: poto: http
+[demo]: port: 443
+[demo]: host: localhost
+[demo]: path: /ruki/file.txt
+[demo]: args: null
+[demo]: =================================================
+[demo]: irl: https://localhost:8080/ruki/file.txt
+[demo]: orl: https://localhost:8080/ruki/file.txt
+[demo]: poto: http
+[demo]: port: 8080
+[demo]: host: localhost
+[demo]: path: /ruki/file.txt
+[demo]: args: null
+[demo]: =================================================
+[demo]: irl: https://localhost:8080/ruki/file.txt/#/hello
+[demo]: orl: https://localhost:8080/ruki/file.txt/
+[demo]: poto: http
+[demo]: port: 8080
+[demo]: host: localhost
+[demo]: path: /ruki/file.txt/
+[demo]: args: null
+[demo]: =================================================
+[demo]: irl: https://github.githubassets.com/#start-of-content
+[demo]: orl: https://github.githubassets.com/
+[demo]: poto: http
+[demo]: port: 443
+[demo]: host: github.githubassets.com
+[demo]: path: /
+[demo]: args: null
+[demo]: =================================================
+[demo]: irl: file:///home/ruki/file.txt?
+[demo]: orl: /home/ruki/file.txt?
+[demo]: poto: file
+[demo]: port: 0
+[demo]: host: null
+[demo]: path: /home/ruki/file.txt?
+[demo]: args: null
+[demo]: =================================================
+[demo]: irl: sock://localhost:8080?udp=
+[demo]: orl: sock://localhost:8080/?udp=
+[demo]: poto: sock
+[demo]: port: 8080
+[demo]: host: localhost
+[demo]: path: /
+[demo]: args: udp=
+[demo]: =================================================
+[demo]: irl: sock://localhost:8080/ruki/file.txt?proto=tcp
+[demo]: orl: sock://localhost:8080/ruki/file.txt?proto=tcp
+[demo]: poto: sock
+[demo]: port: 8080
+[demo]: host: localhost
+[demo]: path: /ruki/file.txt
+[demo]: args: proto=tcp
+[demo]: =================================================
+[demo]: irl: http://localhost?=
+[demo]: orl: http://localhost/?=
+[demo]: poto: http
+[demo]: port: 80
+[demo]: host: localhost
+[demo]: path: /
+[demo]: args: =
+[demo]: =================================================
+[demo]: irl: http://127.0.0.1:8080?ssl=true
+[demo]: orl: http://127.0.0.1:8080/?ssl=true
+[demo]: poto: http
+[demo]: port: 8080
+[demo]: host: 127.0.0.1
+[demo]: path: /
+[demo]: args: ssl=true
+[demo]: =================================================
+[demo]: irl: http://localhost/ruki/file.txt?arg0=11111&arg1=222222
+[demo]: orl: http://localhost/ruki/file.txt?arg0=11111&arg1=222222
+[demo]: poto: http
+[demo]: port: 80
+[demo]: host: localhost
+[demo]: path: /ruki/file.txt
+[demo]: args: arg0=11111&arg1=222222
+[demo]: =================================================
+[demo]: irl: http://localhost:8080/ruki/file.txt?xxxx&sds
+[demo]: orl: http://localhost:8080/ruki/file.txt?xxxx&sds
+[demo]: poto: http
+[demo]: port: 8080
+[demo]: host: localhost
+[demo]: path: /ruki/file.txt
+[demo]: args: xxxx&sds
+[demo]: =================================================
+[demo]: irl: http://vcode.baidu.com/genimage?00140254475301668D95A071A0C29E7F10FD51CA7F1548CF49B02D47F821146A1F7A4154B649D30D2E4FE5B24AD645EAA0D957938A0E838D854084A77B3589F7E0E6784E9919C2178A5978F8CA51E878E1DB3B84C7D2BE5E4BC145811FEC7DBE6E17DB25931A00F0A31E45A7C476FF8209BD9DDD6824D89D8E0EC7260FE53F4B412FC67D161DE6FEFC3F884E079170A1A8085629B84AED10352DCAA946D80EDCBB04A664936CAB0DDC585110D11D2747C27260EF6CD44648
+[demo]: orl: http://vcode.baidu.com/genimage?00140254475301668D95A071A0C29E7F10FD51CA7F1548CF49B02D47F821146A1F7A4154B649D30D2E4FE5B24AD645EAA0D957938A0E838D854084A77B3589F7E0E6784E9919C2178A5978F8CA51E878E1DB3B84C7D2BE5E4BC145811FEC7DBE6E17DB25931A00F0A31E45A7C476FF8209BD9DDD6824D89D8E0EC7260FE53F4B412FC67D161DE6FEFC3F884E079170A1A8085629B84AED10352DCAA946D80EDCBB04A664936CAB0DDC585110D11D2747C27260EF6CD44648
+[demo]: poto: http
+[demo]: port: 80
+[demo]: host: vcode.baidu.com
+[demo]: path: /genimage
+[demo]: args: 00140254475301668D95A071A0C29E7F10FD51CA7F1548CF49B02D47F821146A1F7A4154B649D30D2E4FE5B24AD645EAA0D957938A0E838D854084A77B3589F7E0E6784E9919C2178A5978F8CA51E878E1DB3B84C7D2BE5E4BC145811FEC7DBE6E17DB25931A00F0A31E45A7C476FF8209BD9DDD6824D89D8E0EC7260FE53F4B412FC67D161DE6FEFC3F884E079170A1A8085629B84AED10352DCAA946D80EDCBB04A664936CAB0DDC585110D11D2747C27260EF6CD44648
+[demo]: =================================================
+[demo]: irl: http://中文.中文
+[demo]: orl: http://中文.中文/
+[demo]: poto: http
+[demo]: port: 80
+[demo]: host: 中文.中文
+[demo]: path: /
+[demo]: args: null
+[demo]: =================================================
+[demo]: irl: FILE:///HOME/RUKI/FILE.TXT?
+[demo]: orl: /HOME/RUKI/FILE.TXT?
+[demo]: poto: file
+[demo]: port: 0
+[demo]: host: null
+[demo]: path: /HOME/RUKI/FILE.TXT?
+[demo]: args: null
+[demo]: =================================================
+[demo]: irl: SOCK://LOCALHOST:8080?UDP=
+[demo]: orl: sock://LOCALHOST:8080/?UDP=
+[demo]: poto: sock
+[demo]: port: 8080
+[demo]: host: LOCALHOST
+[demo]: path: /
+[demo]: args: UDP=
+[demo]: =================================================
+[demo]: irl: SOCK://LOCALHOST:8080/RUKI/FILE.TXT?PROTO=TCP
+[demo]: orl: sock://LOCALHOST:8080/RUKI/FILE.TXT?PROTO=TCP
+[demo]: poto: sock
+[demo]: port: 8080
+[demo]: host: LOCALHOST
+[demo]: path: /RUKI/FILE.TXT
+[demo]: args: PROTO=TCP
+[demo]: =================================================
+[demo]: irl: HTTP://LOCALHOST?=
+[demo]: orl: http://LOCALHOST/?=
+[demo]: poto: http
+[demo]: port: 80
+[demo]: host: LOCALHOST
+[demo]: path: /
+[demo]: args: =
+[demo]: =================================================
+[demo]: irl: HTTP://127.0.0.1:8080?SSL=TRUE
+[demo]: orl: http://127.0.0.1:8080/?SSL=TRUE
+[demo]: poto: http
+[demo]: port: 8080
+[demo]: host: 127.0.0.1
+[demo]: path: /
+[demo]: args: SSL=TRUE
+[demo]: =================================================
+[demo]: irl: HTTP://LOCALHOST/RUKI/FILE.TXT?ARG0=11111&ARG1=222222
+[demo]: orl: http://LOCALHOST/RUKI/FILE.TXT?ARG0=11111&ARG1=222222
+[demo]: poto: http
+[demo]: port: 80
+[demo]: host: LOCALHOST
+[demo]: path: /RUKI/FILE.TXT
+[demo]: args: ARG0=11111&ARG1=222222
+[demo]: =================================================
+[demo]: irl: HTTP://LOCALHOST:8080/RUKI/FILE.TXT?XXXX&SDS
+[demo]: orl: http://LOCALHOST:8080/RUKI/FILE.TXT?XXXX&SDS
+[demo]: poto: http
+[demo]: port: 8080
+[demo]: host: LOCALHOST
+[demo]: path: /RUKI/FILE.TXT
+[demo]: args: XXXX&SDS
+[demo]: =================================================
+[demo]: irl: sql://localhost/?type=mysql&user=xxxx&pwd=xxxx
+[demo]: orl: sql://localhost/?type=mysql&user=xxxx&pwd=xxxx
+[demo]: poto: sql
+[demo]: port: 0
+[demo]: host: localhost
+[demo]: path: /
+[demo]: args: type=mysql&user=xxxx&pwd=xxxx
+[demo]: =================================================
+[demo]: irl: sql://localhost:3306/?type=mysql&user=xxxx&pwd=xxxx&database=xxxx
+[demo]: orl: sql://localhost:3306/?type=mysql&user=xxxx&pwd=xxxx&database=xxxx
+[demo]: poto: sql
+[demo]: port: 3306
+[demo]: host: localhost
+[demo]: path: /
+[demo]: args: type=mysql&user=xxxx&pwd=xxxx&database=xxxx
+[demo]: =================================================
+[demo]: irl: Sql:///home/file.sqlite3?type=sqlite3
+[demo]: orl: sql:///home/file.sqlite3?type=sqlite3
+[demo]: poto: sql
+[demo]: port: 0
+[demo]: host: null
+[demo]: path: /home/file.sqlite3
+[demo]: args: type=sqlite3
+[demo]: =================================================
+[demo]: irl: C:/HOME/RUKI/FILE.TXT
+[demo]: orl: //C:/HOME/RUKI/FILE.TXT
+[demo]: poto: file
+[demo]: port: 0
+[demo]: host: null
+[demo]: path: //C:/HOME/RUKI/FILE.TXT
+[demo]: args: null
+[demo]: =================================================
+[demo]: irl: d:/home/ruki/file.txt
+[demo]: orl: //d:/home/ruki/file.txt
+[demo]: poto: file
+[demo]: port: 0
+[demo]: host: null
+[demo]: path: //d:/home/ruki/file.txt
+[demo]: args: null
+[demo]: =================================================
+[demo]: irl: d:\home\ruki\file.txt
+[demo]: orl: //d:/home/ruki/file.txt
+[demo]: poto: file
+[demo]: port: 0
+[demo]: host: null
+[demo]: path: //d:/home/ruki/file.txt
+[demo]: args: null
+[demo]: =================================================
+[demo]: irl: /home/ruki/file.txt
+[demo]: orl: /home/ruki/file.txt
+[demo]: poto: file
+[demo]: port: 0
+[demo]: host: null
+[demo]: path: /home/ruki/file.txt
+[demo]: args: null
+[demo]: =================================================
+[demo]: irl: ruki/file.txt
+[demo]: orl: //ruki/file.txt
+[demo]: poto: file
+[demo]: port: 0
+[demo]: host: null
+[demo]: path: //ruki/file.txt
+[demo]: args: null
+[demo]: =================================================
+[demo]: irl: ./ruki/file.txt
+[demo]: orl: //ruki/file.txt
+[demo]: poto: file
+[demo]: port: 0
+[demo]: host: null
+[demo]: path: //ruki/file.txt
+[demo]: args: null
+[demo]: =================================================
+[demo]: irl: ../ruki/file.txt
+[demo]: orl: /ruki/file.txt
+[demo]: poto: file
+[demo]: port: 0
+[demo]: host: null
+[demo]: path: /ruki/file.txt
+[demo]: args: null
+[demo]: =================================================
+[demo]: irl: ../../ruki/file.txt
+[demo]: orl: /ruki/file.txt
+[demo]: poto: file
+[demo]: port: 0
+[demo]: host: null
+[demo]: path: /ruki/file.txt
+[demo]: args: null
+[demo]: =================================================
+[demo]: irl: ..\..\ruki\file.txt
+[demo]: orl: //../../ruki/file.txt
+[demo]: poto: file
+[demo]: port: 0
+[demo]: host: null
+[demo]: path: //../../ruki/file.txt
+[demo]: args: null
+[demo]: =================================================
+[demo]: irl: ../../ruki/../file.txt
+[demo]: orl: /file.txt
+[demo]: poto: file
+[demo]: port: 0
+[demo]: host: null
+[demo]: path: /file.txt
+[demo]: args: null

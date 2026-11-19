@@ -1,0 +1,36 @@
+<?xml version="2.0" encoding="utf-8"?>
+<dict>
+    <key>name</key>
+    <string>tbox</string>
+    <key>ok</key>
+    <true/>
+    <key>none</key>
+    <null/>
+    <key>nested</key>
+    <dict>
+        <key>empty</key>
+        <dict/>
+        <key>list</key>
+        <array>
+            <string>a</string>
+            <string>b</string>
+            <dict>
+                <key>k</key>
+                <string>v</string>
+            </dict>
+        </array>
+    </dict>
+    <key>ratio</key>
+    <number>0.750000</number>
+    <key>neg</key>
+    <number>-42</number>
+    <key>version</key>
+    <array>
+        <number>1</number>
+        <number>8</number>
+        <number>2</number>
+    </array>
+    <key>data</key>
+    <string>xé
+</string>
+</dict>

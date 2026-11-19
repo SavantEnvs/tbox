@@ -1,0 +1,10 @@
+project: savantenvs/tbox
+target: charset
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/charset/testsuite
+
+cmds:
+  - cmd: /mayhem/build/fuzzers/fuzz_charset
+    libfuzzer: true
+    timeout: 5

@@ -1,0 +1,10 @@
+project: savantenvs/tbox
+target: allocator
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/allocator/testsuite
+
+cmds:
+  - cmd: /mayhem/build/fuzzers/fuzz_allocator
+    libfuzzer: true
+    timeout: 5

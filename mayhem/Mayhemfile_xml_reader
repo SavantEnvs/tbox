@@ -1,0 +1,10 @@
+project: savantenvs/tbox
+target: xml_reader
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/xml_reader/testsuite
+
+cmds:
+  - cmd: /mayhem/build/fuzzers/fuzz_xml_reader
+    libfuzzer: true
+    timeout: 5
